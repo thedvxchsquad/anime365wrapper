@@ -1,7 +1,7 @@
 {
     "name": "anime365wrapper",
     "version": "1.0.0",
-    "description": "A TypeScript API wrapper for smotret-anime.online and similar anime-related endpoints.",
+    "description": "Wrapper anime365.ru (smotret-anime) for Node.JS",
     "main": "dist/index.js",
     "scripts": {
       "build": "tsc",
