@@ -2,13 +2,8 @@
   "name": "anime365wrapper",
   "version": "1.0.0",
   "description": "Wrapper anime365.ru (smotret-anime) for Node.JS",
-  "type": "module",
   "main": "dist/index.js",
-  "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": "./dist/index.js"
-  },
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
@@ -43,6 +38,7 @@
   "engines": {
     "node": ">=10"
   },
+  "type": "commonjs",
   "devDependencies": {
     "typescript": "^4.9.5",
     "jest": "^29.0.0",
