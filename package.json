@@ -39,5 +39,8 @@
   },
   "engines": {
     "node": ">=10"
+  },
+  "dependencies": {
+    "anime365wrapper": "github:thedvxchsquad/anime365wrapper"
   }
 }
