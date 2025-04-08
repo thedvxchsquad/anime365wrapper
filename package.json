@@ -1,35 +1,43 @@
 {
-    "name": "anime365wrapper",
-    "version": "1.0.0",
-    "description": "Wrapper anime365.ru (smotret-anime) for Node.JS",
-    "main": "dist/index.js",
-    "scripts": {
-        "build": "tsc",
-        "start": "node dist/index.js",
-        "test": "jest"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/thedvxchsquad/anime365wrapper.git"
-    },
-    "keywords": [
-        "anime",
-        "typescript",
-        "api",
-        "wrapper",
-        "smotret-anime"
-    ],
-    "author": "dvxchsquad",
-    "contributors": [
-        "ragedrugg"
-    ],
-    "license": "MIT",
-    "files": [
-        "dist/",
-        "README.md",
-        "LICENSE"
-    ],
-    "devDependencies": {
-        "typescript": "^4.9.5"
-    }
+  "name": "anime365wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper anime365.ru (smotret-anime) for Node.JS",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thedvxchsquad/anime365wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thedvxchsquad/anime365wrapper/issues"
+  },
+  "homepage": "https://github.com/thedvxchsquad/anime365wrapper#readme",
+  "keywords": [
+    "anime",
+    "typescript",
+    "api",
+    "wrapper",
+    "smotret-anime"
+  ],
+  "author": "dvxchsquad",
+  "contributors": [
+    "ragedrugg"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "engines": {
+    "node": ">=10"
+  }
 }
