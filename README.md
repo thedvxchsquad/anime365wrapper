@@ -16,6 +16,8 @@
 
 ```bash
 npm i anime365wrapper
+yarn add anime365wrapper
+pnpm add anime365wrapper
 ```
 
 ## Использование
