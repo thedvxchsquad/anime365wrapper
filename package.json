@@ -2,12 +2,21 @@
   "name": "anime365wrapper",
   "version": "1.0.0",
   "description": "Wrapper anime365.ru (smotret-anime) for Node.JS",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
   "scripts": {
-    "build": "tsc",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build": "npm run build:cjs && npm run build:esm",
     "prepare": "npm run build",
-    "start": "node dist/index.js",
+    "start": "node dist/cjs/index.js",
     "test": "jest"
   },
   "repository": {
