@@ -1,5 +1,4 @@
 <p align="center">
-  <!-- Если у вас есть логотип, вставьте URL на него ниже -->
   <img src="https://raw.githubusercontent.com/thedvxchsquad/anime365wrapper/master/.github/logo.png" alt="Anime365Wrapper Logo" width="200">
 </p>
 <p align="center">
