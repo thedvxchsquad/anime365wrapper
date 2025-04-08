@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Wrapper anime365.ru (smotret-anime) for Node.JS",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "start": "node dist/index.js",
     "test": "jest"
   },
@@ -34,13 +35,12 @@
     "README.md",
     "LICENSE"
   ],
-  "devDependencies": {
-    "typescript": "^4.9.5"
-  },
   "engines": {
     "node": ">=10"
   },
-  "dependencies": {
-    "anime365wrapper": "github:thedvxchsquad/anime365wrapper"
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
   }
 }
